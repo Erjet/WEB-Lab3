@@ -1,0 +1,82 @@
+<table>
+    <tr>
+        <td colspan="2">
+            <h2 style="text-align: center">Pizza shop 2.0</h2>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <p>Name</p>
+        </td>
+        <td>
+            <input type="text" name="username">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Pizza Topping</p>
+        </td>
+        <td>
+            <input type="radio" id="supreme" name="topping" value="Supreme">
+            <label for="supreme">Supreme</label><br>
+            <input type="radio" id="vegetarian" name="topping" value="Vegetarian">
+            <label for="vegetarian">Vegetarian</label><br>
+            <input type="radio" id="hawaiian" name="topping" value="Hawaiian">
+            <label for="hawaiian">Hawaiian</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="lang">Pizza sauce</label>
+        </td>
+        <td>
+
+            <select name="sauce" id="lang">
+                <option value="pepper">Tomato</option>
+              <option value="pepper">Pepper sauce</option>
+              <option value="peppino">Peppino sauce</option>
+              <option value="pesto">Pesto sauce</option>
+              <option value="bbq">BBQ sauce</option>
+            </select>
+            <input type="submit" value="Submit" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Name</p>
+        </td>
+        <td>
+            <input type="checkbox" id="cheese" name="extra" value="cheese" />
+            <label for="cheese">Extra Cheese</label>
+            <input type="checkbox" id="bread" name="extra" value="music" />
+            <label for="bread">Gluten Free Base</label>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <p>Delivery instruction:</p>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <button type="button">Send order</button>
+        </td>
+    </tr>
+
+
+</table>
+<style>
+    table,
+    td {
+        border: 1px solid #333;
+    }
+    
+    thead,
+    tfoot {
+        background-color: #333;
+        color: #fff;
+    }
+ </style>   
